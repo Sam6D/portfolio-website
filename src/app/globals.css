@@ -1,13 +1,36 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Design System Color Tokens */
+  --primary: #FF4500;
+  --foreground: #101828;
+  --foreground-muted: #4A5565;
+  --foreground-subtle: #767676;
+  --surface: #F8F8F8;
+  --surface-hover: #FFF8F5;
+  --surface-elevated: #ECECEC;
+  --on-primary-foreground: #FFFFFF;
+  --surface-strong: #101828;
+  --background: #FFFFFF;
+  --outline: #EFEFEF;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-50: #fff7ed;
+  --color-primary-100: #ffedd5;
+  --color-primary-200: #fed7aa;
+  --color-primary-300: #fdba74;
+  --color-primary-400: #fb923c;
+  --color-primary-500: #FF4500;
+  --color-primary-600: #ea580c;
+  --color-primary-700: #c2410c;
+  --color-primary-800: #9a3412;
+  --color-primary-900: #7c2d12;
+  --color-primary-950: #431407;
   --font-sans: var(--font-inter);
 }
 
@@ -22,6 +45,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  line-height: normal;
+}
+
+/* Ensure all text elements have proper line height */
+* {
+  line-height: normal;
 }
 
 /* Custom utilities */
@@ -30,4 +59,143 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+/* Text Style System - Using Standard Tailwind Classes (No Circular References) */
+
+/* Title styles */
+.text-title-xl {
+  @apply text-4xl font-bold; /* 36px, Bold */
+  line-height: normal;
+}
+
+.text-title-large {
+  @apply text-3xl font-semibold; /* 28px, Semi Bold */
+  line-height: normal;
+}
+
+.text-title-medium {
+  @apply text-2xl font-semibold; /* 24px, Semi Bold */
+  line-height: normal;
+}
+
+.text-title-small {
+  @apply text-base font-semibold; /* 16x, Semi Bold */
+  line-height: normal;
+}
+
+/* Body styles */
+.text-body-large {
+  @apply text-lg font-normal; /* 20px, Regular */
+  @apply leading-8;
+  
+}
+
+.text-body-medium {
+  @apply text-base font-normal; /* 18px, Regular */
+  @apply leading-7;
+}
+
+/* Label styles */
+.text-label-large {
+  @apply text-xl font-medium; /* 20px, Medium */
+  line-height: normal;
+}
+
+.text-label-medium {
+  @apply text-base font-medium; /* 16px, Medium */
+  line-height: normal;
+}
+
+.text-label-small {
+  @apply text-sm font-medium; /* 14px, Medium */
+  line-height: normal;
+}
+
+/* Button label */
+.text-button-label {
+  @apply text-sm font-semibold; /* 14px, Semi Bold */
+  line-height: 20px;
+}
+
+/* Paragraph styles */
+.text-paragraph-medium {
+  @apply text-xl font-normal; /* 20px, Regular */
+  @apply leading-8;
+}
+
+/* Color Style System - Using CSS Custom Properties + Tailwind Classes */
+
+/* Text Colors */
+.text-primary {
+  color: var(--primary);
+}
+
+.text-foreground {
+  color: var(--foreground);
+}
+
+.text-foreground-muted {
+  color: var(--foreground-muted);
+}
+
+.text-foreground-subtle {
+  color: var(--foreground-subtle);
+}
+
+.text-on-primary {
+  color: var(--on-primary-foreground);
+}
+
+/* Background Colors */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-surface {
+  background-color: var(--surface);
+}
+
+.bg-surface-hover {
+  background-color: var(--surface-hover);
+}
+
+.bg-surface-elevated {
+  background-color: var(--surface-elevated);
+}
+
+.bg-surface-strong {
+  background-color: var(--surface-strong);
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+/* Border Colors */
+.border-outline {
+  border-color: var(--outline);
+}
+
+.border-primary {
+  border-color: var(--primary);
+}
+
+.border-foreground {
+  border-color: var(--foreground);
+}
+
+/* Shadow Style System - Using CSS Custom Properties */
+
+/* Shadow utilities */
+.shadow-hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09) !important;
+}
+
+.shadow-main {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.shadow-graphic {
+  box-shadow: 0 1.5px 5px 0 rgba(0, 0, 0, 0.11) !important;
 }

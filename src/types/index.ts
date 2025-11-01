@@ -7,22 +7,23 @@ export interface ProjectContentSection {
 }
 
 export interface ProjectContent {
-  sections: ProjectContentSection[];
+  sections?: ProjectContentSection[];
+  markdown?: string;
 }
 
 export interface Project {
   id: string;
   title: string;
   description: string;
-  longDescription: string;
+  longDescription?: string;
   image: string;
   images: string[];
   tags: string[];
   year: string;
   client?: string;
-  role: string;
-  duration: string;
-  tools: string[];
+  role?: string;
+  duration?: string;
+  tools?: string[];
   featured: boolean;
   slug: string;
   content?: ProjectContent;

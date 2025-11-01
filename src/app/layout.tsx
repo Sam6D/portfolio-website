@@ -10,8 +10,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Product Designer",
+  title: "Designer - Sami Désir",
   description: "Product designer creating thoughtful digital experiences. View my portfolio of UX/UI design work and case studies.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'none',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({

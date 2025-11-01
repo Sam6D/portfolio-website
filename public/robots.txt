@@ -1,0 +1,11 @@
+# Block Google Image Search from indexing any images
+User-agent: Googlebot-Image
+Disallow: /
+
+# Allow regular Googlebot to crawl the site (for SEO)
+User-agent: *
+Allow: /
+
+# Note: Image indexing is also blocked via X-Robots-Tag headers
+# in next.config.ts, which adds "noimageindex" to all /images/ requests
+

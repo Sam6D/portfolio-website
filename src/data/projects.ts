@@ -1,12 +1,10 @@
 import { Project } from '@/types';
 import { studocu } from './projects/studocu';
 import { ticketswap } from './projects/ticketswap';
-import { nsDutchRailways } from './projects/ns-dutch-railways';
 
-export const projects: Project[] = [
+export const caseStudies: Project[] = [
   studocu,
-  ticketswap,
-  nsDutchRailways
+  ticketswap
 ];
 
-export const featuredProjects = projects.filter(project => project.featured);
+export const featuredCaseStudies = caseStudies.filter(caseStudy => caseStudy.featured);
