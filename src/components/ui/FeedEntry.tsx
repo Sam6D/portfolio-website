@@ -90,12 +90,14 @@ export function FeedEntry({ year, title, contentBlocks, button, layout = 'horizo
       
       {/* Optional Button */}
       {button && (
-        <CustomLink 
-          href={button.href}
-          className="text-button-label"
-        >
-          {button.text} →
-        </CustomLink>
+        <div className="mt-6">
+          <CustomLink 
+            href={button.href}
+            className="text-button-label"
+          >
+            {button.text} →
+          </CustomLink>
+        </div>
       )}
     </article>
   );

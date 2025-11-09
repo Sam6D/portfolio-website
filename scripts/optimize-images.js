@@ -4,7 +4,8 @@
  * Image optimization script using Sharp
  * Lossless compression - preserves 100% quality
  * 
- * Usage: node test/optimize-images.js
+ * Usage: node scripts/optimize-images.js [folder-path]
+ * Example: node scripts/optimize-images.js ticketswap/ticketswap-case-study
  * Requires: npm install sharp --save-dev
  * 
  * Note: This script uses lossless compression only - no quality reduction.

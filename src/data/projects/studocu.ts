@@ -2,8 +2,8 @@ import { Project } from '@/types';
 
 export const studocu: Project = {
   id: '1',
-  title: 'Studocu, Ask AI Camera',
-  description: 'Designing AI features for students from 0 to 1. Introducing design consistency to the company\'s many AI efforts.',
+  title: 'Studocu AI Camera',
+  description: 'Designing a mobile-first AI feature from 0 to 1.',
   image: '/images/thumbnails/studocu-thumbnail.png',
   images: [
     '/images/Studocu/Studo_Day1.png',

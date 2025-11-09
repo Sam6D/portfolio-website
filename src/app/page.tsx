@@ -68,7 +68,7 @@ export default function Home() {
                   type: 'media',
                   content: {
                     type: 'video',
-                    src: '/images/Studocu/studocu-ask-ai-full-flow.mov',
+                    src: '/images/Studocu/studocu-ask-ai-full-flow.mp4',
                     alt: 'Studocu Ask AI Camera'
                   }
                 }
@@ -84,7 +84,7 @@ export default function Home() {
               contentBlocks={[
                 {
                   type: 'text',
-                  content: "As the designer responsible for the mobile app, I reorganised the experience around the key moments where the phone is uniquely relevant in the study journey. Behind this strategy was a plan to launch features that students could use in those moments: quizzes for quick study sessions, an AI camera to  work with paper-based materials, etc. To support this tool-centric approach, I designed a scalable navigation structure and rearranged the home screen so students could quickly discover, launch, and return to the most relevant tools. The approach paid off: after launching Quizzes and the Ask AI Camera, the app broke a year of stagnant growth. "
+                  content: "As the designer responsible for the mobile app, I reorganised the experience around the key moments where the phone is uniquely relevant in the study journey. Behind this strategy was a plan to launch features that students could use in those moments: quizzes for quick study sessions, an AI camera to  work with paper-based materials, etc. To support this tool-centric approach, I designed a scalable navigation structure and rearranged the home screen so students could quickly discover, launch, and return to the most relevant tools. From this new base, the team was able to continue adding mobile tools to the app and eventually break from years of stagnant growth."
                 },
                 {
                   type: 'media',
@@ -144,7 +144,7 @@ export default function Home() {
                   type: 'media',
                   content: {
                     type: 'video',
-                    src: '/images/ticketswap/ticketswap-checkout-video.mov',
+                    src: '/images/ticketswap/ticketswap-checkout-video.mp4',
                     alt: 'Ticketswap Checkout Flow'
                   }
                 },
@@ -161,7 +161,10 @@ export default function Home() {
                   }
                 }
               ]}
-              layout="vertical"
+              button={{
+                text: "Read case study",
+                href: "/case-studies/ticketswap"
+              }}
             />
             <FeedEntry
               year="2022"

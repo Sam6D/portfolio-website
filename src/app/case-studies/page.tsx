@@ -29,8 +29,8 @@ export default function CaseStudiesPage() {
             <div className="space-y-12">
               {featuredCaseStudies.map((caseStudy, index) => {
                 // Alternate between right and left variants
-                // Index 0 (Studocu) = right, Index 1 (TicketSwap) = left, etc.
-                const variant = index % 2 === 0 ? 'image-right' : 'image-left';
+                // Index 0 (Studocu) = left, Index 1 (TicketSwap) = right, etc.
+                const variant = index % 2 === 0 ? 'image-left' : 'image-right';
                 
                 return (
                   <ProjectCard 
