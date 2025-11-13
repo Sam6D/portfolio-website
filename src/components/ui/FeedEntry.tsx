@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { Button } from './Button';
 import { CustomLink } from './Link';
 
 export interface FeedEntryProps {
@@ -21,7 +19,7 @@ export interface FeedEntryProps {
   layout?: 'horizontal' | 'vertical';
 }
 
-export function FeedEntry({ year, title, contentBlocks, button, layout = 'horizontal' }: FeedEntryProps) {
+export function FeedEntry({ year, title, contentBlocks, button }: FeedEntryProps) {
   return (
     <article className="w-full flex flex-col gap-[8px] items-start">
       {/* Entry Content */}

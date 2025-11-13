@@ -78,7 +78,7 @@ export function Header() {
           }}
         />
         
-        {navigation.map((item, index) => {
+        {navigation.map((item) => {
           const isActive = mounted && pathname === item.href;
           return (
             <Link

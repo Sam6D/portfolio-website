@@ -1,6 +1,4 @@
 import { Section } from '@/components/ui/Section';
-import Image from 'next/image';
-import { Button } from '@/components/ui/Button';
 import { BackButton } from '@/components/ui/BackButton';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { caseStudies } from '@/data/projects';

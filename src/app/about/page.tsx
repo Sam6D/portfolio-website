@@ -33,10 +33,10 @@ export default function About() {
               </h2>
               <div className="space-y-5">
                 <p className="text-foreground-muted text-body-medium">
-                  I'm Sami, a Senior Product Designer with 6+ years of experience designing consumer and B2B products. Recently, a lot of my work has centred around developing AI tools tailored to the needs of specific groups.
+                  I&apos;m Sami, a Senior Product Designer with 6+ years of experience designing consumer and B2B products. Recently, a lot of my work has centred around developing AI tools tailored to the needs of specific groups.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
-                  Currently, I'm designing an AI agent platform for recruiters at <CustomLink href="https://carv.com" external>Carv</CustomLink>. Before that I was at <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
+                  Currently, I&apos;m designing an AI agent platform for recruiters at <CustomLink href="https://carv.com" external>Carv</CustomLink>. Before that I was at <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
                   I was born in Paris and live in Amsterdam. Before that I was in Copenhagen, where I studied at <CustomLink href="https://ciid.dk" external>Copenhagen Institute of Interaction Design</CustomLink>.
@@ -72,7 +72,7 @@ export default function About() {
                   </h3>
                   <span className="text-foreground-subtle text-body-medium">2025 - Now</span>
                   <p className="text-foreground-muted text-body-medium">
-                  I work at Carv, where I'm redesigning the product from an AI note-taker to a system from which recruiters can manage AI agents for a wide range of tasks.</p>
+                  I work at Carv, where I&apos;m redesigning the product from an AI note-taker to a system from which recruiters can manage AI agents for a wide range of tasks.</p>
                 </div>
               </div>
 

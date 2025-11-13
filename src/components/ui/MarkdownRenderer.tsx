@@ -1,6 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
-import { ReactNode, ComponentProps } from 'react';
+import { ComponentProps } from 'react';
 
 interface MarkdownRendererProps {
   content: string;

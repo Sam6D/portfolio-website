@@ -13,10 +13,10 @@ export default function Home() {
             {/* Text Content - 8px gap between lines */}
             <div className="flex flex-col gap-[8px] items-start flex-1">
               <h1 className="text-foreground text-[36px] font-bold">
-                Hey! I'm <span className="text-primary">Sami</span>
+                Hey! I&apos;m <span className="text-primary">Sami</span>
               </h1>
               <p className="text-foreground-muted text-body-medium">
-                I'm a Senior Product Designer living in Amsterdam. Currently designing an AI agent platform for recruiters at <CustomLink href="https://carv.com" external>Carv</CustomLink>.
+                I&apos;m a Senior Product Designer living in Amsterdam. Currently designing an AI agent platform for recruiters at <CustomLink href="https://carv.com" external>Carv</CustomLink>.
               </p>
             </div>
             

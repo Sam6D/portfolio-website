@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Project } from '@/types';
-import { Card } from './Card';
 
 // Define the variant types for the ProjectCard
 type ProjectCardVariant = 'image-left' | 'image-right';

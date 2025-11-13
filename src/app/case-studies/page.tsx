@@ -19,7 +19,7 @@ export default function CaseStudiesPage() {
             Want a deeper look into my process?
                 </h2>
               <p className="text-body-medium text-foreground-muted">
-                Here are a few case studies on some of the larger projects I've worked on.
+                Here are a few case studies on some of the larger projects I&apos;ve worked on.
               </p>
           </div>
         </Section>
