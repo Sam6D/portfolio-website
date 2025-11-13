@@ -19,6 +19,12 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    rules: {
+      // Allow apostrophes in JSX text without escaping
+      "react/no-unescaped-entities": ["error", {
+        "forbid": [">", "}"]  // Only forbid these characters, allow apostrophes
+      }]
+    }
   },
 ];
 

@@ -70,10 +70,11 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
             </ol>
           ),
           
-          // Images with proper styling - wider than text content
+          // Images with proper styling - wider than text content on larger screens
+          // On smallest breakpoint, respect page margins and match content width (w-full)
           img: ({ src, alt, ...props }: ComponentProps<'img'>) => (
-            <span className="block my-14 -mx-4 sm:-mx-8 md:-mx-16 lg:-mx-24">
-              <span className="block relative rounded-lg overflow-hidden max-w-3xl mx-auto">
+            <span className="block my-14 sm:-mx-8 md:-mx-16 lg:-mx-24">
+              <span className="block relative rounded-lg overflow-hidden w-full sm:max-w-3xl sm:mx-auto">
                 <img
                   src={src}
                   alt={alt}
@@ -82,17 +83,18 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
                 />
               </span>
               {alt && (
-                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic max-w-3xl mx-auto">
+                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic w-full sm:max-w-3xl sm:mx-auto">
                   {alt}
                 </span>
               )}
             </span>
           ),
 
-          // Videos with proper styling - wider than text content
+          // Videos with proper styling - wider than text content on larger screens
+          // On smallest breakpoint, respect page margins and match content width (w-full)
           video: ({ children, title, ...props }: ComponentProps<'video'>) => (
-            <span className="block my-14 -mx-4 sm:-mx-8 md:-mx-16 lg:-mx-24">
-              <span className="block relative rounded-lg overflow-hidden max-w-3xl mx-auto">
+            <span className="block my-14 sm:-mx-8 md:-mx-16 lg:-mx-24">
+              <span className="block relative rounded-lg overflow-hidden w-full sm:max-w-3xl sm:mx-auto">
                 <video
                   className="w-full h-auto"
                   loop
@@ -106,7 +108,7 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
                 </video>
               </span>
               {title && (
-                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic max-w-3xl mx-auto">
+                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic w-full sm:max-w-3xl sm:mx-auto">
                   {title}
                 </span>
               )}
