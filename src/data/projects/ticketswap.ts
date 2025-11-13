@@ -13,56 +13,52 @@ export const ticketswap: Project = {
     '/images/ticketswap/TS_VD.png'
   ],
   tags: ['Product Design', 'Payments'],
-  year: '2022-23',
+  year: '2023',
   featured: true,
   slug: 'ticketswap',
   content: {
     markdown: `When I joined the buying team at TicketSwap, the most popular ticket resale platform in the Netherlands, the mobile app checkout flow was overdue for a redesign and technical refactor. iOS and Android had been built at different times, and worked in small but painfully different ways. This made any small updates a complex puzzle for the team.
 
-![Flow before the redesign](/images/ticketswap/ts_old_flow.png)
-
 At first glance, the checkout looked fine. Conversion was strong and most buyers completed their purchases. But a closer look showed serious UX gaps for anyone who hit an edge case. Too many steps, related information scattered across screens, unclear payment errors, and no visible timer showing how long tickets were reserved. These problems left a noticeable group of buyers unable to complete payment, and often unable to secure tickets for high-demand events. On TicketSwap, demand for second-hand tickets often exceeds the capacity of the entire venue. When a ticket lands in your cart, you need to be able to buy it.
+
+![Flow before the redesign](/images/ticketswap/ts_old_flow.png)
 
 Next to these well needed improvements, we were planning to introduce optional products like insurance during checkout. And there were big concerns about how we would do this without hurting conversion or trust.
 
 **The goal:** Make checkout feel light and effortless, resilient to errors, and ready to support new products without friction or risk.
 
-<video src="/images/ticketswap/ticketswap-checkout-video.mp4"></video>
+# **Make the flow feel lighter and faster**
 
-### **Make the flow feel lighter and faster**
+The first priority was to streamline the main flow. This was done by:
 
-The first priority was to streamline the main flow. Here is how I did it:
-
--   Restructured and simplified the screens to reduce cognitive load.
+-   Restructuring and simplifying the screens to reduce cognitive load.
     
--   Brought the UI in line with our refreshed design language, and introduced a new confirmation screen to make the flow feel warmer and more exciting.
+-   Bringing the UI in line with our refreshed design language, and introducing a new confirmation screen to make the flow feel warmer and more exciting.
     
--   Optimized payment paths for new and returning users based on market and user preferences — rather than defaulting to Apple Pay on iOS.
+-   Optimising payment paths for new and returning users based on market and user preferences — rather than defaulting to Apple Pay on iOS.
     
--   Added clearer error handling to inform and redirect users to the appropriate screen or next action to best guide them on how to try again.
+-   Adding clearer error handling to inform and redirect users to the appropriate screen or next action to best guide them on how to try again.
     
--   Introduced a timer to help buyers complete purchases confidently.
+-   Introducing a timer to help buyers complete purchases confidently.
     
-
-I also redefined the roles of the two main screens that make the checkout flow: the cart and checkout. The cart became a simple summary, mostly repeating information that is on the listing screen for buyers that skipped it when racing to reserve tickets. After that, the checkout screen handled all inputs and confirmations. With this clear structure, the goal was to reduce cognitive load for buyers between each step, but it was also a strategic decision to make the checkout screen capable of handling all the critical requirements. This made it possible to later move to a single-screen checkout.
-
 ![Redesigned flow](/images/ticketswap/ts_new_flow.png)
 
-### **Introduce upsell without costing trust or speed**
+I also redefined the roles of the two main screens that make the checkout flow: the cart and checkout. The cart became a simple summary, mostly repeating information that is on the listing screen for buyers that skipped it when racing to reserve tickets. After that, the checkout screen handled all inputs and confirmations. With this clear structure, the goal was to reduce cognitive load for buyers between each step, but it was also a strategic decision to make the checkout screen capable of handling all the critical requirements. This made it possible to later move to a single-screen checkout.
+<video src="/images/ticketswap/ticketswap-checkout-video.mp4"></video>
+
+# **Introduce upsell without costing trust or speed**
 
 I designed a modular upsell system to integrate optional products like insurance directly into the checkout screen while keeping the screen simple and compact. Buyers were still able to scan the screen and get to the pay button without having to scroll.
 
-![The modular upsell system](/images/ticketswap/TS_upsell_feed.png)
-
-### **Insurance**
+![](/images/ticketswap/TS_upsell_feed.png)
 
 The interaction for insurance selection was built around a simple yes/no choice, which was also made optional to reduce frustration and focus on explaining value instead of pushing revenue.
 
 User testing confirmed that the approach was the right one. The familiar pattern and central position on the screen made it unmissable, requiring no additional friction. This mechanism combined with the clear, informative copy made the upsell feel like a choice rather than a trap. To our surprise, test users left the sessions sharing a positive sentiment towards insurance.
 
-![Insurance](/images/ticketswap/ts_insurance.png)
+![](/images/ticketswap/ts_insurance.png)
 
-### **Reinforce clarity on safety**
+# **Reinforce clarity on safety**
 
 Talking to users, I realised that many showed uncertainty around TicketSwap’s existing safety guarantees. Many believed the new insurance covered protections that were already built into the platform. There was a risk that the new insurance would be misunderstood, or even that users would start to think that they were only protected if they paid extra.
 
@@ -72,11 +68,9 @@ These changes helped make the platform feel safer and set a context where insura
 
 ![](/images/ticketswap/ts_safety_1.png)
 
-<br />
-
 ![](/images/ticketswap/ts_safety_2.png)
 
-### **Outcomes**
+# **Outcomes**
 
 -   Conversion remained stable after launch despite a major structural change.
     
@@ -85,7 +79,7 @@ These changes helped make the platform feel safer and set a context where insura
 -   Insurance became a successful new revenue stream with very few rejected claims or support requests, confirming that it was well understood by buyers.
 
 
-### **Some things take time**
+# **Some things take time**
 
 Not every part of the redesign was shipped immediately. One planned step was to remove the cart screen and route buyers directly to a single checkout screen. At the time it was considered too large of a change to take on in one release.
 

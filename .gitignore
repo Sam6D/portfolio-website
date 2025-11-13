@@ -43,3 +43,6 @@ next-env.d.ts
 # image optimization backups
 public/images/.backup/
 *.mov
+
+# cursor ide
+.cursor/

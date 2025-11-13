@@ -15,7 +15,7 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
         components={{
           // Custom heading components
           h1: ({ children, ...props }: ComponentProps<'h1'>) => (
-            <h1 className="text-title-medium text-foreground mb-6 mt-24 first:mt-4" {...props}>
+            <h1 className="text-title-medium text-foreground mb-6 mt-14 first:mt-4" {...props}>
               {children}
             </h1>
           ),
@@ -70,10 +70,10 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
             </ol>
           ),
           
-          // Images with proper styling
+          // Images with proper styling - wider than text content
           img: ({ src, alt, ...props }: ComponentProps<'img'>) => (
-            <span className="block my-6">
-              <span className="block relative rounded-lg overflow-hidden">
+            <span className="block my-14 -mx-4 sm:-mx-8 md:-mx-16 lg:-mx-24">
+              <span className="block relative rounded-lg overflow-hidden max-w-3xl mx-auto">
                 <img
                   src={src}
                   alt={alt}
@@ -82,17 +82,17 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
                 />
               </span>
               {alt && (
-                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic">
+                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic max-w-3xl mx-auto">
                   {alt}
                 </span>
               )}
             </span>
           ),
 
-          // Videos with proper styling
-          video: ({ children, ...props }: ComponentProps<'video'>) => (
-            <span className="block my-6">
-              <span className="block relative rounded-lg overflow-hidden">
+          // Videos with proper styling - wider than text content
+          video: ({ children, title, ...props }: ComponentProps<'video'>) => (
+            <span className="block my-14 -mx-4 sm:-mx-8 md:-mx-16 lg:-mx-24">
+              <span className="block relative rounded-lg overflow-hidden max-w-3xl mx-auto">
                 <video
                   className="w-full h-auto"
                   loop
@@ -105,6 +105,11 @@ export function MarkdownRenderer({ content, className = '' }: MarkdownRendererPr
                   {children}
                 </video>
               </span>
+              {title && (
+                <span className="block text-body-medium text-foreground-muted text-left mt-2 italic max-w-3xl mx-auto">
+                  {title}
+                </span>
+              )}
             </span>
           ),
         }}
