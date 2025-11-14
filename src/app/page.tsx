@@ -90,7 +90,7 @@ export default function Home() {
                   type: 'media',
                   content: {
                     type: 'image',
-                    src: '/images/studocu/studocu-mobile-app.png',
+                    src: '/images/Studocu/studocu-mobile-app.png',
                     alt: 'Studocu Mobile App'
                   }
                 }
@@ -126,7 +126,7 @@ export default function Home() {
                   type: 'media',
                   content: {
                     type: 'image',
-                    src: '/images/Ticketswap/TS_VD_feed.png',
+                    src: '/images/ticketswap/TS_VD_feed.png',
                     alt: 'TicketSwap Visual Design'
                   }
                 }
