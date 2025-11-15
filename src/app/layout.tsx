@@ -14,13 +14,8 @@ export const metadata: Metadata = {
   title: "Designer - Sami Désir",
   description: "Product designer creating thoughtful digital experiences. View my portfolio of UX/UI design work and case studies.",
   icons: {
-    icon: [
-      { url: '/icon.png', type: 'image/png' },
-      { url: '/favicon.ico', type: 'image/x-icon' },
-    ],
-    apple: [
-      { url: '/apple-icon.png', type: 'image/png' },
-    ],
+    icon: '/favicon.ico',
+    apple: '/apple-icon.png',
   },
   robots: {
     index: true,
