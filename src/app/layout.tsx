@@ -13,10 +13,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Designer - Sami Désir",
   description: "Product designer creating thoughtful digital experiences. View my portfolio of UX/UI design work and case studies.",
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-icon.png',
-  },
   robots: {
     index: true,
     follow: true,
