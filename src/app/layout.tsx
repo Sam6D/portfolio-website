@@ -13,6 +13,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Designer - Sami Désir",
   description: "Product designer creating thoughtful digital experiences. View my portfolio of UX/UI design work and case studies.",
+  // Apple/Safari specific favicon configuration
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Sami Désir',
+  },
+  icons: {
+    apple: '/apple-icon.png',
+  },
   robots: {
     index: true,
     follow: true,
