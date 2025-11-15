@@ -13,19 +13,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Designer - Sami Désir",
   description: "Product designer creating thoughtful digital experiences. View my portfolio of UX/UI design work and case studies.",
-  icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: '48x48' },
-      { url: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' },
-      { url: '/favicon-32.png', type: 'image/png', sizes: '32x32' },
-      { url: '/favicon-16.png', type: 'image/png', sizes: '16x16' },
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180' },
-    ],
-    shortcut: '/favicon.ico',
-  },
-  manifest: '/site.webmanifest',
   robots: {
     index: true,
     follow: true,
