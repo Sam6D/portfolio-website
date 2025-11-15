@@ -13,15 +13,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Designer - Sami Désir",
   description: "Product designer creating thoughtful digital experiences. View my portfolio of UX/UI design work and case studies.",
-  icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.png', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/apple-icon.png', type: 'image/png' },
-    ],
-  },
   robots: {
     index: true,
     follow: true,
