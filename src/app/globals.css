@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+/* CD Disc spin animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 :root {
   /* Design System Color Tokens */
   --primary: #FF4500;
