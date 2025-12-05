@@ -67,8 +67,8 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-[2px] items-start flex-1">
-                  <h3 className="text-foreground text-label-large">
-                    Senior Product Designer <span className="text-foreground-subtle">Carv</span>
+                  <h3 className="text-foreground text-label-medium">
+                    Senior Product Designer at Carv
                   </h3>
                   <span className="text-foreground-subtle text-body-medium">2025 - Now</span>
                   <p className="text-foreground-muted text-body-medium">
@@ -89,8 +89,8 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-[2px] items-start flex-1">
-                  <h3 className="text-foreground text-label-large">
-                    Senior Product Designer <span className="text-foreground-subtle">Studocu</span>
+                  <h3 className="text-foreground text-label-medium">
+                    Senior Product Designer at Studocu
                   </h3>
                   <span className="text-foreground-subtle text-body-medium">2024 - 2025</span>
                   <p className="text-foreground-muted text-body-medium">
@@ -112,8 +112,8 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-[2px] items-start flex-1">
-                  <h3 className="text-foreground text-label-large">
-                    Product Designer <span className="text-foreground-subtle">TicketSwap</span>
+                  <h3 className="text-foreground text-label-medium">
+                    Product Designer at TicketSwap
                   </h3>
                   <span className="text-foreground-subtle text-body-medium">2022 - 2023</span>
                   <p className="text-foreground-muted text-body-medium">
@@ -134,8 +134,8 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-[2px] items-start flex-1">
-                  <h3 className="text-foreground text-label-large">
-                    Interaction Designer at <span className="text-foreground-subtle">argodesign</span>
+                  <h3 className="text-foreground text-label-medium">
+                    Interaction Designer at argodesign
                   </h3>
                   <span className="text-foreground-subtle text-body-medium">2019 - 2022</span>
                   <p className="text-foreground-muted text-body-medium">
