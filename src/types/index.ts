@@ -27,6 +27,7 @@ export interface Project {
   featured: boolean;
   slug: string;
   content?: ProjectContent;
+  protected?: boolean;
 }
 
 export interface NavigationItem {

@@ -55,6 +55,10 @@ export default function Home() {
                   }
                 }
               ]}
+              button={{
+                text: "Read case study",
+                href: "/case-studies/carv"
+              }}
             />
             <FeedEntry
               year="2024"

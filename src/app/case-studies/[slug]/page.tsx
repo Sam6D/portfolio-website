@@ -29,6 +29,16 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   return {
     title: `${titleWithoutCompany} - Sami Désir`,
     description: project.description,
+    ...(project.protected && {
+      robots: {
+        index: false,
+        follow: false,
+        googleBot: {
+          index: false,
+          follow: false,
+        },
+      },
+    }),
   };
 }
 
