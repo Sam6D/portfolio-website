@@ -36,10 +36,10 @@ export default function About() {
                   I'm Sami, a Senior Product Designer with 6+ years of experience designing consumer and B2B products. Recently, a lot of my work has centred around developing AI tools tailored to the needs of specific groups.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
-                  Currently, I'm designing an AI agent platform for recruiters at <CustomLink href="https://carv.com" external>Carv</CustomLink>. Before that I was at <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
+                  Currently, I'm designing AI documentation tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>. Before that I was at <CustomLink href="https://carv.com" external>Carv</CustomLink>, <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
-                  I was born in Paris and live in Amsterdam. Before that I was in Copenhagen, where I studied at <CustomLink href="https://ciid.dk" external>Copenhagen Institute of Interaction Design</CustomLink>.
+                  I was born in Paris and live there today after spending some time in Amsterdam and Copenhagen, where I studied at <CustomLink href="https://ciid.dk" external>Copenhagen Institute of Interaction Design</CustomLink>.
                 </p>
               </div>
             </div>
@@ -54,13 +54,35 @@ export default function About() {
             <h2 className="text-foreground text-title-small">Experience</h2>
             
             <div className="flex flex-col gap-[48px] items-start w-full">
+              {/* Nabla */}
+              <div className="flex gap-[24px] items-start w-full">
+                <div className="bg-surface rounded-[8px] shrink-0 overflow-hidden flex items-center justify-center" style={{ width: '62px', height: '62px' }}>
+                  <div className="relative w-full h-full overflow-hidden">
+                    <Image
+                      src="/images/companies/nabla-logo.png"
+                      alt="Nabla logo"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col gap-[2px] items-start flex-1">
+                  <h3 className="text-foreground text-label-medium">
+                    Senior Product Designer at Nabla
+                  </h3>
+                  <span className="text-foreground-subtle text-body-medium">2026 - Now</span>
+                  <p className="text-foreground-muted text-body-medium">
+                  I work at Nabla, where I design tools that help clinicians bring AI into their day-to-day. Think an AI note-taker where accuracy isn't optional, and where documentation is not just a single note but also a chain of complex, integrated workflows.</p>
+                </div>
+              </div>
+
               {/* Carv */}
               <div className="flex gap-[24px] items-start w-full">
                 <div className="bg-surface rounded-[8px] shrink-0 p-[6px] overflow-hidden flex items-center justify-center" style={{ width: '62px', height: '62px' }}>
                   <div className="relative overflow-hidden" style={{ width: '50px', height: '50px' }}>
-                    <Image 
-                      src="/images/companies/carv-logo.png" 
-                      alt="Carv logo" 
+                    <Image
+                      src="/images/companies/carv-logo.png"
+                      alt="Carv logo"
                       fill
                       className="object-contain"
                     />
@@ -70,9 +92,9 @@ export default function About() {
                   <h3 className="text-foreground text-label-medium">
                     Senior Product Designer at Carv
                   </h3>
-                  <span className="text-foreground-subtle text-body-medium">2025 - Now</span>
+                  <span className="text-foreground-subtle text-body-medium">2025 - 2026</span>
                   <p className="text-foreground-muted text-body-medium">
-                  I work at Carv, where I'm redesigning the product from an AI note-taker to a system from which recruiters can manage AI agents for a wide range of tasks.</p>
+                  At Carv, I redesigned the product from an AI note-taker to a system from which recruiters could manage AI agents for a wide range of tasks.</p>
                 </div>
               </div>
 

@@ -16,7 +16,7 @@ export default function Home() {
                 Hey! I'm <span className="text-primary">Sami</span>
               </h1>
               <p className="text-foreground-muted text-body-medium">
-                I'm a Senior Product Designer living in Amsterdam. Currently designing an AI agent platform for recruiters at <CustomLink href="https://carv.com" external>Carv</CustomLink>.
+                I'm a Senior Product Designer living in Paris. Currently designing AI documentation tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>.
               </p>
             </div>
             
@@ -44,7 +44,7 @@ export default function Home() {
               contentBlocks={[
                 {
                   type: 'text',
-                  content: "I’m currently at Carv, where I’m redesigning our product into an AI‑agent platform for recruiters. What I find interesting here is the balance we need to strike between a fully open-ended and a guided approach. The best example of this is our prompt bar that combines ChatGPT’s freeform nature with a CMD+K type of input where recruiters can use natural language to ask anything and call tools to perform tasks around candidates, jobs and every data point in their applicant tracking system."
+                  content: "At Carv, I redesigned the product into an AI‑agent platform for recruiters. What I found interesting here was the balance we needed to strike between a fully open-ended and a guided approach. The best example of this is the prompt bar that combines ChatGPT’s freeform nature with a CMD+K type of input where recruiters can use natural language to ask anything and call tools to perform tasks around candidates, jobs and every data point in their applicant tracking system."
                 },
                 {
                   type: 'media',
