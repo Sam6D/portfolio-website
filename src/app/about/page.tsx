@@ -36,7 +36,7 @@ export default function About() {
                   I'm Sami, a Senior Product Designer with 6+ years of experience designing consumer and B2B products. Recently, a lot of my work has centred around developing AI tools tailored to the needs of specific groups.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
-                  Currently, I'm designing AI documentation tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>. Before that I was at <CustomLink href="https://carv.com" external>Carv</CustomLink>, <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
+                  Currently, I'm designing AI tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>. Before that I was at <CustomLink href="https://carv.com" external>Carv</CustomLink>, <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
                   I was born in Paris and live there today. Before that, I spent some time in Amsterdam and Copenhagen, where I studied at <CustomLink href="https://ciid.dk" external>Copenhagen Institute of Interaction Design</CustomLink>.

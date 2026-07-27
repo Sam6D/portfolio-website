@@ -16,7 +16,7 @@ export default function Home() {
                 Hey! I'm <span className="text-primary">Sami</span>
               </h1>
               <p className="text-foreground-muted text-body-medium">
-                I'm a Senior Product Designer living in Paris. Currently designing AI documentation tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>.
+                I'm a Senior Product Designer living in Paris. Currently designing AI tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>.
               </p>
             </div>
             
