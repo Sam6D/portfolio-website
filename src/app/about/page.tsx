@@ -39,7 +39,7 @@ export default function About() {
                   Currently, I'm designing AI tools for clinicians at <CustomLink href="https://www.nabla.com" external>Nabla</CustomLink>. Before that I was at <CustomLink href="https://carv.com" external>Carv</CustomLink>, <CustomLink href="https://apps.apple.com/us/app/studocu-ai-notes-summaries/id1460235511" external>Studocu</CustomLink>, <CustomLink href="https://www.ticketswap.com/" external>TicketSwap</CustomLink>, <CustomLink href="https://argodesign.com/" external>argodesign</CustomLink>.
                 </p>
                 <p className="text-foreground-muted text-body-medium">
-                  I was born in Paris and live there today. Before that, I spent some time in Amsterdam and Copenhagen, where I studied at <CustomLink href="https://ciid.dk" external>Copenhagen Institute of Interaction Design</CustomLink>.
+                  I was born in Paris and live there today after spending some time in Amsterdam and Copenhagen, where I studied at <CustomLink href="https://ciid.dk" external>Copenhagen Institute of Interaction Design</CustomLink>.
                 </p>
               </div>
             </div>
