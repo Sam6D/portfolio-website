@@ -72,7 +72,7 @@ export default function About() {
                   </h3>
                   <span className="text-foreground-subtle text-body-medium">2026 - Now</span>
                   <p className="text-foreground-muted text-body-medium">
-                  I work at Nabla, where I design tools that help clinicians bring AI into their day-to-day. Think an AI note-taker where accuracy isn't optional, and where documentation is not just a single note but also a chain of complex, integrated workflows.</p>
+                  I work at Nabla, where I design tools that help clinicians bring AI into their day-to-day. Think an AI note-taker where accuracy isn't optional, and where the note is just the starting point of a chain of complex, integrated workflows translated into the simplest possible experience.</p>
                 </div>
               </div>
 
