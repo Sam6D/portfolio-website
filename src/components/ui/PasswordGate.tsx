@@ -38,10 +38,10 @@ export function PasswordGate() {
   return (
     <div className="max-w-sm mx-auto text-left">
       <h1 className="text-title-large font-semibold text-foreground mb-2">
-        This case study is password protected
+        Enter password to view case study
       </h1>
       <p className="text-body-medium text-foreground-muted mb-6">
-        Enter the password to view this case study.
+        granite-otter-lantern-19
       </p>
       <form onSubmit={handleSubmit} className="flex flex-col gap-3">
         <input
